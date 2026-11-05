@@ -6,12 +6,16 @@
 
 import { lireLocal } from "./util.js";
 
-const URL_FONCTION = ""; // ex. "https://<projet>.supabase.co/functions/v1/exercices"
+const URL_FONCTION = "https://sthhoiuxooayfdisavfv.supabase.co/functions/v1/exercices";
 
 const local = ["localhost", "127.0.0.1"].includes(location.hostname);
-const BASE = local || !URL_FONCTION ? "/api" : URL_FONCTION;
+const BASE = local ? "/api" : URL_FONCTION;
 
 async function appeler(action, corps) {
+  if (!BASE) throw new Error("L'appli n'est pas encore reliée à son serveur.");
+  if (!local && !lireLocal("codeFamille", "")) {
+    throw new Error("Saisis d'abord le code famille dans les réglages (roue dentée en haut à droite).");
+  }
   let rep;
   try {
     rep = await fetch(`${BASE}/${action}`, {

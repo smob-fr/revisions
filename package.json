@@ -1,6 +1,6 @@
 {
   "name": "revisions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Exercices de révision CE1 à Terminale, avec corrigés",
   "scripts": {
     "dev": "node dev-server.mjs",

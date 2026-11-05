@@ -3,7 +3,7 @@
 // Stratégie « réseau d'abord » : en ligne, l'appli récupère toujours la dernière
 // version ; le cache ne sert que de repli hors ligne. Les appels à l'IA ne sont jamais mis en cache.
 // Incrémente VERSION à chaque mise en ligne.
-const VERSION = "v0.1.0";
+const VERSION = "v0.1.1";
 const CACHE = `revisions-${VERSION}`;
 
 const ASSETS = [

@@ -4,7 +4,7 @@ import { h, vider, remplir, lireLocal, ecrireLocal } from "./util.js";
 import { lancerSeance } from "./seance.js";
 import { arreter } from "./parole.js";
 
-export const VERSION = "0.1.0";
+export const VERSION = "0.1.1";
 const racine = document.getElementById("app");
 
 // ---------- Données ----------
