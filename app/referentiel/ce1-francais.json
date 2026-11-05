@@ -1,0 +1,95 @@
+{
+  "niveau": "CE1",
+  "matiere": "Français",
+  "programme": "Programme de français du cycle 2, en vigueur depuis la rentrée 2025 (à relire avec les repères annuels de CE1 sur Éduscol)",
+  "statut": "brouillon à relire",
+  "lecons": [
+    {
+      "id": "dictee-mots-frequents",
+      "titre": "Dictée de mots et de phrases",
+      "theme": "Orthographe",
+      "attendus": [
+        "Écrire sans erreur les mots fréquents appris en classe",
+        "Écrire une phrase courte dictée en respectant les majuscules et le point"
+      ],
+      "notions": ["mots invariables fréquents", "majuscule en début de phrase", "point final", "accord simple du nom avec le déterminant"],
+      "mots_dictee": [
+        "aujourd'hui", "maintenant", "toujours", "souvent", "beaucoup", "très", "aussi", "avec", "dans", "chez",
+        "après", "avant", "ensuite", "déjà", "encore", "jamais", "parce que", "un ami", "une amie", "l'école",
+        "la maison", "le jardin", "la classe", "le matin", "le soir", "un enfant", "la maîtresse", "le maître"
+      ],
+      "hors_programme": ["accord du participe passé", "verbes à l'imparfait ou au passé simple", "phrases de plus de 10 mots"],
+      "vocabulaire": ["phrase", "mot", "majuscule", "point"],
+      "consignes_specifiques": "Phrases de 5 à 8 mots, au présent, avec 2 ou 3 mots de la liste. Une question de type dictee par phrase.",
+      "exemple": {
+        "titre": "Dictée du matin",
+        "consigne_generale": "Écoute bien. Écris chaque phrase.",
+        "texte_support": "",
+        "questions": [
+          {
+            "enonce": "Écris la phrase dictée.",
+            "type": "dictee",
+            "choix": [],
+            "reponse_attendue": "Aujourd'hui, je joue avec mon ami.",
+            "expression_calcul": "",
+            "indices": ["La phrase commence par une majuscule.", "« Aujourd'hui » s'écrit avec une apostrophe.", "« avec » s'écrit a-v-e-c."],
+            "methode": ["J'écoute toute la phrase.", "J'écris mot par mot.", "Je relis : majuscule au début, point à la fin."],
+            "piege": "Oublier l'apostrophe dans « aujourd'hui ».",
+            "rappel_cours": "Une phrase commence par une majuscule et finit par un point."
+          },
+          {
+            "enonce": "Écris la phrase dictée.",
+            "type": "dictee",
+            "choix": [],
+            "reponse_attendue": "Le soir, les enfants rentrent à la maison.",
+            "expression_calcul": "",
+            "indices": ["« les enfants » : il y en a plusieurs.", "Plusieurs enfants : on ajoute un s.", "« rentrent » finit par -ent."],
+            "methode": ["J'écoute toute la phrase.", "Je repère les mots au pluriel.", "Je relis chaque mot."],
+            "piege": "Oublier le s de « enfants ».",
+            "rappel_cours": "Quand il y a plusieurs choses, le nom prend souvent un s : un enfant, des enfants."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pluriel-des-noms",
+      "titre": "Le singulier et le pluriel des noms",
+      "theme": "Grammaire et orthographe",
+      "attendus": [
+        "Distinguer singulier et pluriel",
+        "Écrire le pluriel des noms en ajoutant -s"
+      ],
+      "notions": ["un / une / le / la → singulier", "des / les / deux, trois... → pluriel", "pluriel en -s"],
+      "hors_programme": ["pluriels en -aux", "pluriels irréguliers (œil / yeux)", "pluriel des noms composés"],
+      "vocabulaire": ["singulier", "pluriel", "nom", "déterminant"],
+      "consignes_specifiques": "Utiliser des noms courants de la vie de l'enfant. Types possibles : qcm (singulier ou pluriel ?), mot (écrire le nom au pluriel)."
+    },
+    {
+      "id": "present-verbes",
+      "titre": "Le présent : être, avoir et les verbes en -er",
+      "theme": "Conjugaison",
+      "attendus": [
+        "Conjuguer au présent être, avoir et les verbes en -er comme chanter, jouer, marcher",
+        "Trouver le verbe et son sujet dans une phrase simple"
+      ],
+      "notions": ["je, tu, il/elle/on, nous, vous, ils/elles", "terminaisons -e, -es, -e, -ons, -ez, -ent", "être et avoir au présent"],
+      "hors_programme": ["verbes du 3e groupe autres que être, avoir (et aller si vu en classe)", "passé composé", "imparfait"],
+      "vocabulaire": ["verbe", "sujet", "présent", "pronom"],
+      "consignes_specifiques": "Phrases courtes. Type mot : écrire le verbe conjugué. Type qcm : choisir la bonne terminaison."
+    },
+    {
+      "id": "lecture-comprehension",
+      "titre": "Lire et comprendre un petit texte",
+      "theme": "Lecture",
+      "attendus": [
+        "Lire seul un texte court adapté à son âge",
+        "Répondre à des questions sur qui, où, quand, quoi",
+        "Trouver une information écrite dans le texte"
+      ],
+      "notions": ["personnages", "lieu", "moment", "ce qui se passe", "trouver la réponse dans le texte"],
+      "hors_programme": ["textes de plus de 120 mots", "inférences complexes"],
+      "vocabulaire": ["texte", "titre", "personnage", "phrase"],
+      "consignes_specifiques": "Un texte original de 60 à 100 mots dans texte_support, avec des mots simples et déchiffrables. 4 à 5 questions de type qcm ou mot."
+    }
+  ]
+}

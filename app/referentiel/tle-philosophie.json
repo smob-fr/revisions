@@ -1,0 +1,27 @@
+{
+  "niveau": "Terminale",
+  "matiere": "Philosophie",
+  "programme": "Programme de philosophie de Terminale, voie générale (17 notions)",
+  "statut": "brouillon à relire",
+  "format_epreuve": "Épreuve écrite de 4 heures, lundi 14 juin 2027, coefficient 8 en voie générale. Le candidat choisit entre des sujets de dissertation (une question) et une explication de texte.",
+  "lecons": [
+    { "id": "art", "titre": "L'art", "notions": ["l'art"] },
+    { "id": "bonheur", "titre": "Le bonheur", "notions": ["le bonheur"] },
+    { "id": "conscience", "titre": "La conscience", "notions": ["la conscience"] },
+    { "id": "devoir", "titre": "Le devoir", "notions": ["le devoir"] },
+    { "id": "etat", "titre": "L'État", "notions": ["l'État"] },
+    { "id": "inconscient", "titre": "L'inconscient", "notions": ["l'inconscient"] },
+    { "id": "justice", "titre": "La justice", "notions": ["la justice"] },
+    { "id": "langage", "titre": "Le langage", "notions": ["le langage"] },
+    { "id": "liberte", "titre": "La liberté", "notions": ["la liberté"] },
+    { "id": "nature", "titre": "La nature", "notions": ["la nature"] },
+    { "id": "raison", "titre": "La raison", "notions": ["la raison"] },
+    { "id": "religion", "titre": "La religion", "notions": ["la religion"] },
+    { "id": "science", "titre": "La science", "notions": ["la science"] },
+    { "id": "technique", "titre": "La technique", "notions": ["la technique"] },
+    { "id": "temps", "titre": "Le temps", "notions": ["le temps"] },
+    { "id": "travail", "titre": "Le travail", "notions": ["le travail"] },
+    { "id": "verite", "titre": "La vérité", "notions": ["la vérité"] }
+  ],
+  "consignes_specifiques": "Selon la difficulté : Découverte = définir la notion, distinguer des sens, repérer des exemples (questions courtes de type redaction ou qcm) ; Entraînement = analyser un sujet de dissertation (termes, problème, problématique, plan en 2 ou 3 parties) ; Approfondissement = un sujet complet au choix entre dissertation et explication d'un court extrait authentique. Les références d'auteurs doivent être exactes et classiques."
+}

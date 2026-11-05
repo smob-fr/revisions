@@ -1,0 +1,64 @@
+{
+  "niveau": "Terminale",
+  "matiere": "SVT (spécialité)",
+  "programme": "Programme de spécialité SVT de Terminale, voie générale",
+  "statut": "brouillon à relire",
+  "format_epreuve": "Partie écrite de 3 h 30 notée sur 15 (note de service du 11 septembre 2026, BO spécial n°4 du 17 septembre 2026, applicable à la session 2027) : exercice 1 (6 points), un texte argumenté répondant à une question scientifique, éventuellement avec documents ; exercice 2 (7 points), un raisonnement scientifique pour résoudre un problème à partir d'un ensemble de documents ; 2 points pour les normes orthographiques et syntaxiques. Une partie pratique (ECE, 1 h, 5 points) est évaluée en salle de TP, hors appli. Les notions de Première peuvent être mobilisées.",
+  "lecons": [
+    {
+      "id": "brassage-genetique",
+      "titre": "L'origine du génotype des individus",
+      "theme": "Génétique et évolution",
+      "notions": ["mitose et méiose", "brassage interchromosomique", "brassage intrachromosomique (crossing-over)", "fécondation", "croisements et analyse de descendance", "anomalies de la méiose"]
+    },
+    {
+      "id": "complexification-genomes",
+      "titre": "La complexification des génomes",
+      "theme": "Génétique et évolution",
+      "notions": ["transferts horizontaux de gènes", "endosymbiose", "duplications de gènes et familles multigéniques"]
+    },
+    {
+      "id": "mecanismes-evolution",
+      "titre": "Les mécanismes de l'évolution",
+      "theme": "Génétique et évolution",
+      "notions": ["modèle de Hardy-Weinberg", "dérive génétique", "sélection naturelle", "migration", "spéciation"]
+    },
+    {
+      "id": "passe-geologique",
+      "titre": "À la recherche du passé géologique de notre planète",
+      "theme": "La Terre, la vie et l'organisation du vivant",
+      "notions": ["chronologie relative (principes de superposition, recoupement, inclusion)", "datation absolue par radiochronologie", "traces des chaînes de montagnes anciennes"]
+    },
+    {
+      "id": "plante-domestiquee",
+      "titre": "De la plante sauvage à la plante domestiquée",
+      "theme": "Enjeux planétaires contemporains",
+      "notions": ["organisation fonctionnelle des plantes", "reproduction des plantes à fleurs", "domestication et sélection des plantes cultivées"]
+    },
+    {
+      "id": "climats-de-la-terre",
+      "titre": "Les climats de la Terre",
+      "theme": "Enjeux planétaires contemporains",
+      "notions": ["reconstitution des climats passés (indices glaciaires, pollens, sédiments)", "variations climatiques à différentes échelles de temps", "changement climatique actuel et ses causes", "modèles et projections"]
+    },
+    {
+      "id": "systeme-nerveux-mouvement",
+      "titre": "Comportements, mouvement et système nerveux",
+      "theme": "Corps humain et santé",
+      "notions": ["réflexe myotatique", "neurone, message nerveux, synapse", "cortex moteur et mouvement volontaire", "plasticité cérébrale"]
+    },
+    {
+      "id": "contraction-musculaire",
+      "titre": "Produire le mouvement : contraction musculaire et énergie",
+      "theme": "Corps humain et santé",
+      "notions": ["structure de la cellule musculaire", "actine et myosine", "ATP et métabolisme", "régulation de la glycémie et effort"]
+    },
+    {
+      "id": "stress",
+      "titre": "Comportements et stress",
+      "theme": "Corps humain et santé",
+      "notions": ["réponse adaptative au stress", "axe hypothalamo-hypophyso-surrénalien", "cortisol et rétrocontrôle", "stress chronique"]
+    }
+  ],
+  "consignes_specifiques": "Selon la difficulté : Découverte = questions de cours et QCM ; Entraînement = un exercice 1 (texte argumenté) OU un exercice 2 court ; Approfondissement = sujet écrit complet au format 2027 (exercice 1 sur 6 et exercice 2 sur 7). Documents décrits dans texte_support, simplifiés et signalés comme tels."
+}

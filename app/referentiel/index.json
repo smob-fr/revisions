@@ -1,0 +1,24 @@
+{
+  "annee_scolaire": "2026-2027",
+  "niveaux": [
+    {
+      "id": "ce1",
+      "nom": "CE1",
+      "cycle": "Cycle 2",
+      "matieres": [
+        { "id": "francais", "nom": "Français", "fichier": "ce1-francais.json" },
+        { "id": "maths", "nom": "Mathématiques", "fichier": "ce1-maths.json" }
+      ]
+    },
+    {
+      "id": "tle",
+      "nom": "Terminale",
+      "cycle": "Lycée général",
+      "matieres": [
+        { "id": "philosophie", "nom": "Philosophie", "fichier": "tle-philosophie.json" },
+        { "id": "hlp", "nom": "HLP", "fichier": "tle-hlp.json" },
+        { "id": "svt", "nom": "SVT", "fichier": "tle-svt.json" }
+      ]
+    }
+  ]
+}

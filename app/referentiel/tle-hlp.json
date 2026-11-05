@@ -1,0 +1,46 @@
+{
+  "niveau": "Terminale",
+  "matiere": "Humanités, littérature et philosophie (HLP)",
+  "programme": "Programme de HLP de Terminale : « La recherche de soi » et « L'Humanité en question »",
+  "statut": "brouillon à relire",
+  "format_epreuve": "Épreuve écrite de 4 heures (note de service du 11 septembre 2026, BO spécial n°4 du 17 septembre 2026, applicable à la session 2027). Un texte relatif à un thème du programme et deux questions notées chacune sur 10 : une « interprétation » (littéraire ou philosophique) qui expose la compréhension et l'analyse d'un enjeu majeur du texte, et un « essai » (littéraire ou philosophique) qui répond de façon étayée à une question soulevée par le texte. Les deux exercices relèvent de deux approches différentes, indiquées dans l'intitulé. La maîtrise de la langue est évaluée dans la note globale.",
+  "lecons": [
+    {
+      "id": "education-transmission-emancipation",
+      "titre": "Éducation, transmission et émancipation",
+      "theme": "La recherche de soi",
+      "notions": ["éducation", "transmission", "émancipation", "formation de soi"]
+    },
+    {
+      "id": "expressions-sensibilite",
+      "titre": "Les expressions de la sensibilité",
+      "theme": "La recherche de soi",
+      "notions": ["sensibilité", "sentiment", "émotion", "expression de soi"]
+    },
+    {
+      "id": "metamorphoses-du-moi",
+      "titre": "Les métamorphoses du moi",
+      "theme": "La recherche de soi",
+      "notions": ["identité", "moi", "changement", "rapport à soi"]
+    },
+    {
+      "id": "creation-continuites-ruptures",
+      "titre": "Création, continuités et ruptures",
+      "theme": "L'Humanité en question",
+      "notions": ["création", "tradition", "rupture", "nouveauté"]
+    },
+    {
+      "id": "histoire-et-violence",
+      "titre": "Histoire et violence",
+      "theme": "L'Humanité en question",
+      "notions": ["histoire", "violence", "témoignage", "mémoire"]
+    },
+    {
+      "id": "humain-et-ses-limites",
+      "titre": "L'humain et ses limites",
+      "theme": "L'Humanité en question",
+      "notions": ["humanité", "limites", "progrès", "technique", "vulnérabilité"]
+    }
+  ],
+  "consignes_specifiques": "Selon la difficulté : Découverte = comprendre un court extrait (questions de lecture, repérage des enjeux) ; Entraînement = une seule des deux questions du bac (interprétation OU essai) avec plan attendu ; Approfondissement = sujet complet au format 2027 : un extrait authentique (référence exacte) et deux questions de type redaction, l'une littéraire et l'autre philosophique."
+}

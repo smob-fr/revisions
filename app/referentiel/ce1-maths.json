@@ -1,0 +1,91 @@
+{
+  "niveau": "CE1",
+  "matiere": "Mathématiques",
+  "programme": "Programme de mathématiques du cycle 2, en vigueur depuis la rentrée 2025 (à relire avec les repères annuels de CE1 sur Éduscol)",
+  "statut": "brouillon à relire",
+  "lecons": [
+    {
+      "id": "nombres-jusqua-1000",
+      "titre": "Les nombres jusqu'à 1 000",
+      "theme": "Nombres",
+      "attendus": [
+        "Lire et écrire les nombres jusqu'à 1 000 en chiffres",
+        "Décomposer un nombre en centaines, dizaines et unités",
+        "Comparer et ranger des nombres"
+      ],
+      "notions": ["centaines, dizaines, unités", "valeur d'un chiffre selon sa place", "plus grand / plus petit (< et >)", "nombre qui vient juste avant ou juste après"],
+      "hors_programme": ["nombres au-delà de 1 000", "nombres décimaux", "fractions"],
+      "vocabulaire": ["chiffre", "nombre", "unité", "dizaine", "centaine", "plus grand que", "plus petit que"],
+      "consignes_specifiques": "Types nombre ou qcm. Pour une décomposition, demander une seule valeur par question (ex. le nombre de dizaines)."
+    },
+    {
+      "id": "addition-posee",
+      "titre": "L'addition posée",
+      "theme": "Calcul",
+      "attendus": ["Poser et calculer une addition de nombres jusqu'à 1 000, avec ou sans retenue"],
+      "notions": ["aligner unités sous unités", "retenue", "vérifier en estimant l'ordre de grandeur"],
+      "hors_programme": ["résultats supérieurs à 1 000", "addition de plus de trois nombres"],
+      "vocabulaire": ["addition", "somme", "retenue", "unités", "dizaines", "centaines"],
+      "consignes_specifiques": "Type nombre, avec expression_calcul. En Découverte : sans retenue. En Entraînement : une retenue. En Approfondissement : deux retenues ou un petit problème.",
+      "exemple": {
+        "titre": "Additions posées",
+        "consigne_generale": "Pose l'addition sur ton cahier, puis écris le résultat.",
+        "texte_support": "",
+        "questions": [
+          {
+            "enonce": "Calcule 346 + 238.",
+            "type": "nombre",
+            "choix": [],
+            "reponse_attendue": "584",
+            "expression_calcul": "346 + 238",
+            "indices": ["Commence par les unités : 6 + 8.", "6 + 8 = 14 : tu poses 4 et tu retiens 1.", "Dizaines : 4 + 3 + 1."],
+            "methode": ["Unités : 6 + 8 = 14, je pose 4, je retiens 1.", "Dizaines : 4 + 3 + 1 = 8.", "Centaines : 3 + 2 = 5.", "Résultat : 584."],
+            "piege": "Oublier d'ajouter la retenue aux dizaines.",
+            "rappel_cours": "On calcule de droite à gauche : unités, puis dizaines, puis centaines, sans oublier les retenues."
+          },
+          {
+            "enonce": "Calcule 125 + 432.",
+            "type": "nombre",
+            "choix": [],
+            "reponse_attendue": "557",
+            "expression_calcul": "125 + 432",
+            "indices": ["Unités : 5 + 2.", "Dizaines : 2 + 3.", "Centaines : 1 + 4."],
+            "methode": ["Unités : 5 + 2 = 7.", "Dizaines : 2 + 3 = 5.", "Centaines : 1 + 4 = 5.", "Résultat : 557."],
+            "piege": "Mal aligner les chiffres quand on pose l'addition.",
+            "rappel_cours": "Les unités vont sous les unités, les dizaines sous les dizaines."
+          }
+        ]
+      }
+    },
+    {
+      "id": "soustraction",
+      "titre": "La soustraction",
+      "theme": "Calcul",
+      "attendus": ["Calculer une soustraction de nombres jusqu'à 1 000, en ligne ou posée selon ce qui a été vu en classe"],
+      "notions": ["soustraction sans retenue", "soustraction avec retenue (technique de la classe)", "vérifier par une addition"],
+      "hors_programme": ["résultats négatifs", "nombres au-delà de 1 000"],
+      "vocabulaire": ["soustraction", "différence", "retenue"],
+      "consignes_specifiques": "Type nombre, avec expression_calcul. En Découverte : sans retenue. Le premier nombre est toujours plus grand que le second."
+    },
+    {
+      "id": "problemes",
+      "titre": "Résoudre des problèmes",
+      "theme": "Problèmes",
+      "attendus": ["Résoudre des problèmes à une ou deux étapes avec l'addition ou la soustraction"],
+      "notions": ["chercher ce qu'on demande", "choisir l'opération", "écrire la phrase réponse"],
+      "hors_programme": ["problèmes à plus de deux étapes", "division"],
+      "vocabulaire": ["problème", "question", "opération", "réponse"],
+      "consignes_specifiques": "Énoncés de 2 à 3 phrases courtes, situations de la vie de l'enfant (billes, bonbons, livres, bus). Type nombre avec expression_calcul."
+    },
+    {
+      "id": "multiplication-debut",
+      "titre": "Découvrir la multiplication",
+      "theme": "Calcul",
+      "attendus": ["Comprendre la multiplication comme une addition répétée", "Connaître les tables de 2 et de 5"],
+      "notions": ["3 × 2 = 2 + 2 + 2", "tables de 2 et de 5", "double"],
+      "hors_programme": ["tables au-delà de 5", "multiplication posée"],
+      "vocabulaire": ["multiplication", "fois", "double", "table"],
+      "consignes_specifiques": "Type nombre avec expression_calcul (utiliser * dans expression_calcul et × dans l'énoncé)."
+    }
+  ]
+}
