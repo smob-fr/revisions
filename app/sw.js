@@ -3,7 +3,7 @@
 // Stratégie « réseau d'abord » : en ligne, l'appli récupère toujours la dernière
 // version ; le cache ne sert que de repli hors ligne. Les appels à l'IA ne sont jamais mis en cache.
 // Incrémente VERSION à chaque mise en ligne.
-const VERSION = "v0.1.1";
+const VERSION = "v0.1.2";
 const CACHE = `revisions-${VERSION}`;
 
 const ASSETS = [
@@ -44,7 +44,9 @@ self.addEventListener("fetch", (e) => {
   const url = new URL(e.request.url);
   if (e.request.method !== "GET" || url.origin !== location.origin) return;
   e.respondWith(
-    fetch(e.request)
+    // « no-cache » : on revalide auprès du serveur, pour qu'une mise à jour arrive
+    // tout de suite au lieu d'attendre l'expiration du cache du navigateur.
+    fetch(e.request, { cache: "no-cache" })
       .then((rep) => {
         const copie = rep.clone();
         caches.open(CACHE).then((c) => c.put(e.request, copie));
